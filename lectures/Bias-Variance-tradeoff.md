@@ -5,7 +5,7 @@ Training ML model to reduce objective function: $\sum_{i=1}^{m} ||f(x^{(i)train}
 Acheve lower error on test set (holdout)  $\sum_{i=1}^{m} ||f(x^{(i)test}) - y^{(i)test}||_2^2$
 We presume that training distribution ~ test distribution. 
 ![alt text](../images/bias-variance-trade-off.jpg)
-*Image 1: Adopted from *
+*Image 1: Adopted from [paper](https://link.springer.com/article/10.1007/s10115-019-01335-4)*
 ## Data Parameters
 With data available $\mathcal{Z}=\{(x^{(i)},y^{(i)}\}_i$ we assume they are i.i.d. - identically independently distributed. We want to fit some model $f(x; \theta,\Theta)$ for parameters $\theta$ and hyperparameters $\Theta$. 
 
