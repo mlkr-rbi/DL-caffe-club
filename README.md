@@ -10,7 +10,7 @@ Book club for [Deep Learning, Goodfellow](https://www.deeplearningbook.org/) whe
 Ch1 Introduction
 
 ## <a name='Lectures'></a>Lectures
-### Introduction 
+### Introduction from 0 - 161 chapters 1 - 5
 General overview by DK
 MLP by IG
 LR by MK
