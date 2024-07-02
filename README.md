@@ -10,12 +10,12 @@ Book club for [Deep Learning, Goodfellow](https://www.deeplearningbook.org/) whe
 
 ## <a name='Lectures'></a>Lectures
 ### Introduction from 0 - 161 chapters 1 - 5
-General overview by DK
-MLP by IG
-LR by MK
-Backpropagation DK
-Regularization IG
-Bias-Variance tradeoff MK
+- General overview by DK
+- MLP by IG
+- LR by MK
+- Backpropagation DK
+- Regularization IG
+- Bias-Variance tradeoff MK
 ## <a name='Codes'></a>Codes
 
 ## <a name='Materials'></a>Materials
