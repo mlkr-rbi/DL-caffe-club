@@ -7,7 +7,6 @@ Book club for [Deep Learning, Goodfellow](https://www.deeplearningbook.org/) whe
 - [Materials](#materials)
 - [Presentations](#presentations)
 - [Articles](#articles)
-Ch1 Introduction
 
 ## <a name='Lectures'></a>Lectures
 ### Introduction from 0 - 161 chapters 1 - 5
