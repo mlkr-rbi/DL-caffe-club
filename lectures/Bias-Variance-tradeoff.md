@@ -1,8 +1,8 @@
 # Biase Variance tradeoff
 ## Introduction
 Prior notions: underfitting, overfitting, generalization. Goal to find lowest possible generalization error. 
-Training ML model to reduce objective function: $\sum_{i=1}^{m}\|f(x^{(i)train}) - y^{(i)train}\|_2^2$
-Acheve lower error on test set (holdout)  $\sum_{i=1}^{m}\Vert f(x^{(i)test}) - y^{(i)test}\Vert_2^2$
+Training ML model to reduce objective function: $\sum_{i=1}^{m}\lVert f(x^{(i)train}) - y^{(i)train}\rVert_2^2$
+Acheve lower error on test set (holdout)  $\sum_{i=1}^{m}\lVert f(x^{(i)test}) - y^{(i)test}\rVert_2^2$
 We presume that training distribution ~ test distribution. 
 ![alt text](../images/bias-variance-trade-off.jpg)
 *Image 1: Adopted from [paper](https://link.springer.com/article/10.1007/s10115-019-01335-4)*
