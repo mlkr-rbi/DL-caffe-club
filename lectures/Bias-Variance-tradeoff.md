@@ -1,8 +1,8 @@
 # Biase Variance tradeoff
 ## Introduction
 Prior notions: underfitting, overfitting, generalization. Goal to find lowest possible generalization error. 
-Training ML model to reduce objective function: $\sum_{i=1}^{m}\lVert f(x^{(i)train}) - y^{(i)train}\rVert_2^2$
-Acheve lower error on test set (holdout)  $\sum_{i=1}^{m}\lVert f(x^{(i)test}) - y^{(i)test}\rVert_2^2$
+Training ML model to reduce objective function: $\sum_{i=1}^m\lVert f(x^{(i)train}) - y^{(i)train}\rVert_2^2$
+Acheve lower error on test set (holdout)  $\sum_{i=1}^m\lVert f(x^{(i)test}) - y^{(i)test}\rVert_2^2$
 We presume that training distribution ~ test distribution. 
 ![alt text](../images/bias-variance-trade-off.jpg)
 *Image 1: Adopted from [paper](https://link.springer.com/article/10.1007/s10115-019-01335-4)*
@@ -28,11 +28,11 @@ Calculation of $Bias[g(\mathcal{Z})]$ and $Var[g(\mathcal{Z})]$. is ...
 
 
 ## Bias Variance trade-off
-Mean square error $MSE = \mathbb{E}[(\mathbb{E}[\^\theta] - \theta)^2]$ but real parameters that produce the data can really never be measured are prone to basic noise $ $noise(\epsilon) = \mathbb{E}[-\theta'^2 + \theta^2]$ where $\theta$ is something uncertain, and has some confounding factor that is essential part of it. 
+Mean square error $MSE = \mathbb{E}[(\mathbb{E}[\hat\theta] - \theta)^2]$ but real parameters that produce the data can really never be measured are prone to basic noise $ $noise(\epsilon) = \mathbb{E}[-\theta'^2 + \theta^2]$ where $\theta$ is something uncertain, and has some confounding factor that is essential part of it. 
 
 Calculation: ...
 
-$MSE = \mathbb{E}[(\mathbb{E}[\^\theta] - \theta)^2] = Bias^2(\^\theta) + Var(\^\theta) + noise(\epsilon)$
+$MSE = \mathbb{E}[(\mathbb{E}[\hat\theta] - \theta)^2] = Bias^2(\hat\theta) + Var(\hat\theta) + noise(\epsilon)$
 
 
 ![alt text](../images/foundations-bias-variance-00.svg)
