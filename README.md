@@ -1,5 +1,10 @@
-# DL caffe club
-Book club for [Deep Learning, Goodfellow](https://www.deeplearningbook.org/) where we cover specific concepts in a 15 minute presentation, some concepts are repeated thorugh implementation presentation or extendet to current research. 
+# DL coffee club
+Deep Learning coffee club where we cover specific concepts in a 15 minute presentations. Some concepts are repeated through implementation presentation or extended to current research. 
+
+Books that we are covering in our lectures:
+
+- [Deep Learning, by Goodfellow](https://www.deeplearningbook.org/)
+- [Understanding Deep Learning, by Prince](https://udlbook.github.io/udlbook/)
 
 ## Content
 - [Lectures](#lectures)
