@@ -20,19 +20,29 @@ Looking at the parameters from statistics point of view they are $\hat\theta := 
 $Var[g(\mathcal{Z})] = \mathbb{E}[(g(\mathcal{Z}) - \theta)^2]$.
 
 In example of $p \sim Bernoulli(\theta)$ that is $p\sim \{p(0)=1-\theta, p(1)=\theta\}$ with density function: 
+
 $$p(x^{(i)};\theta) =\theta^{x^{(i)}}(1-\theta)^{x^{(i)}}.$$
+
  Define $g$ to be, say estimator of parameters $\hat\theta$: $g(\mathcal{Z}) = \hat\theta = \frac{1}{m}\sum_i x^{(i)}$.
 
 Calculation of $Bias[g(\mathcal{Z})]$ and $Var[g(\mathcal{Z})]$:
 
 $$Bias[g(\mathcal{Z})] = \mathbb{E}[g(\mathcal{Z})] - \theta =$$
+
 $$= \mathbb{E}[\frac{1}{m}\sum_i x^{(i)}] - \theta = \frac{1}{m}\sum_i \mathbb{E}[x^{(i)}] - \theta =$$
+
 $$= \frac{1}{m}\sum_i \sum_{x^{(i)}\in\{0,1\}} x^{(i)} \theta^{x^{(i)}}(1-\theta)^{x^{(i)}} - \theta =$$
+
 $$= \frac{1}{m}\sum_i[0\theta^0(1-\theta)^0 + 1\theta^1(1-\theta)^0] -\theta = 0.$$
+
 Variance the second moment of the statistics $g(\mathcal{Z})$ usually defined as $Var(g(\mathcal{Z})) :=\mathbb{E}[(g(\mathcal{Z}) - \theta)^2]$ We arrive at:
+
 $$Var(g(\mathcal{Z})) = \mathbb{E}[g^2(\mathcal{Z}) - g(\mathcal{Z})\theta - \theta g(\mathcal{Z}) + \theta^2] = $$
+
 $$= \mathbb{E}[g^2(\mathcal{Z})] - \mathbb{E}[g(\mathcal{Z})]\theta - \theta \mathbb{E}[g(\mathcal{Z})] + \mathbb{E}[\theta^2] =$$ 
+
 if $g(\mathcal{Z}) = \frac{1}{m}\sum_i x^{(i)}$ and $X \sim Bernoully(\theta)$ then: 
+
 $$= \mathbb{E}[\hat \theta^2] - \theta^2$$
 
 ## Bias Variance trade-off
