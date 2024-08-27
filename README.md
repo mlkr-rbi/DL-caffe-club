@@ -7,14 +7,17 @@ Books that we are covering in our lectures:
 - [Understanding Deep Learning, by Prince](https://udlbook.github.io/udlbook/)
 
 ## Content
-- [Lectures](#lectures)
-- [Codes](#codes)
-- [Materials](#materials)
-- [Presentations](#presentations)
-- [Articles](#articles)
+- [DL coffee club](#dl-coffee-club)
+  - [Content](#content)
+  - [Lectures](#lectures)
+    - [Introduction from 0 - 161 chapters 1 - 5, Goodfellow, Deep Learning](#introduction-from-0---161-chapters-1---5-goodfellow-deep-learning)
+  - [Codes](#codes)
+  - [Materials](#materials)
+  - [Presentations](#presentations)
+  - [Articles](#articles)
 
 ## <a name='Lectures'></a>Lectures
-### Introduction from 0 - 161 chapters 1 - 5
+### Introduction from 0 - 161 chapters 1 - 5, Goodfellow, Deep Learning
 - General overview by DK
 - MLP by IG
 - LR by MK
