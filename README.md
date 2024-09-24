@@ -27,6 +27,8 @@ Books that we are covering in our lectures:
 ## <a name='Codes'></a>Codes
 
 ## <a name='Materials'></a>Materials
+Materials can be done in markdown. Using VS Code install [Markdown Converter github](https://github.com/manuth/MarkdownConverter?tab=readme-ov-file#usage), [Markdown Converter](https://marketplace.visualstudio.com/items?itemName=manuth.markdown-converter&ssr=false#qna) through package manager, and when promted download chromium. For generating pdf this package works. 
+>`F1` -> `Markdown:Convert Document` to convert it to .pdf
 
 ## <a name='Presentations'></a>Presentations
 
